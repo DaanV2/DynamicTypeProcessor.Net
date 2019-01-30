@@ -1,0 +1,3 @@
+[submodule "Modules/ThreadSafe-Collections.Net"]
+	path = Modules/ThreadSafe-Collections.Net
+	url = https://github.com/DaanV2/ThreadSafe-Collections.Net.git
