@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DynamicTypeProcessor.Net")]
+[assembly: AssemblyTitle("DynamicTypeProcessor.Net Csharp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DynamicTypeProcessor.Net")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyProduct("DynamicTypeProcessor.Net Csharp")]
+[assembly: AssemblyCopyright("Copyright © Daan Verstraten 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("169ba59c-5803-40c7-a211-c9f036b23366")]
+[assembly: Guid("1b1b6258-c84e-43e5-83a1-40f1d067e5b4")]
 
 // Version information for an assembly consists of the following four values:
 //

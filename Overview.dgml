@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @4 Member=(@17 OverloadingParameters=[(@1 @2 @4 ParameterIdentifier=1),(@1 @2 @4 ParameterIdentifier=2)]))" Category="CodeSchema_Method" Bounds="61.4800000000006,156,188.636666666665,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="Microsoft.VisualStudio.Method.Public" Label="Process(TInA, TInB) : TResult" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Interfaces/IProcess Method.cs&quot; StartLineNumber=42 StartCharacterOffset=16 EndLineNumber=42 EndCharacterOffset=23)" />
+    <Node Id="(@1 @2 Type=IProcessMethod Member=(@17 OverloadingParameters=[@18,@18]))" Category="CodeSchema_Method" Bounds="20,40,201.860000000001,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="Microsoft.VisualStudio.Method.Public" Label="Process(object, object) : object" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Interfaces/IProcess Method.cs&quot; StartLineNumber=30 StartCharacterOffset=15 EndLineNumber=30 EndCharacterOffset=22)" />
+    <Node Id="(@1 @2 Type=IProcessor Member=(Name=AddProcessMethods OverloadingParameters=[@12]))" Category="CodeSchema_Method" Bounds="291.860000000001,40,240.200000000001,26" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AddProcessMethods" Icon="Microsoft.VisualStudio.Method.Public" Label="AddProcessMethods(Processor) : void" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Interfaces/IProcessor.cs&quot; StartLineNumber=27 StartCharacterOffset=13 EndLineNumber=27 EndCharacterOffset=30)" />
+    <Node Id="@10" Category="CodeSchema_Interface" Bounds="271.860000000001,0,280.200000000001,86" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IProcessor" Group="Expanded" Icon="Microsoft.VisualStudio.Interface.Public" Label="IProcessor" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Interfaces/IProcessor.cs&quot; StartLineNumber=23 StartCharacterOffset=21 EndLineNumber=23 EndCharacterOffset=31)" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="0,232,112.133333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Processor" Group="Collapsed" Icon="Microsoft.VisualStudio.Class.Public" Label="Processor" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Add.cs&quot; StartLineNumber=23 StartCharacterOffset=25 EndLineNumber=23 EndCharacterOffset=34)" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="890.325368371024,295.500167347326,474.823333333333,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ProcessMethod" Icon="Microsoft.VisualStudio.Method.Public" Label="ProcessMethod(Func&lt;TInA, TInB, TResult&gt;) (ProcessMethod&lt;TInA, TInB, TResult&gt;)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Process Method/Process Method - Initialize.cs&quot; StartLineNumber=32 StartCharacterOffset=15 EndLineNumber=32 EndCharacterOffset=28)" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="166.603333333333,439,264.756666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Processor" Icon="Microsoft.VisualStudio.Method.Public" Label="Processor(params IProcessor[]) (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Initialize.cs&quot; StartLineNumber=36 StartCharacterOffset=15 EndLineNumber=36 EndCharacterOffset=24)" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="164.403333333333,382,269.156666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="AddProcessor" Icon="Microsoft.VisualStudio.Method.Public" Label="AddProcessor(IProcessor) : void (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Add.cs&quot; StartLineNumber=58 StartCharacterOffset=20 EndLineNumber=58 EndCharacterOffset=32)" UseManualLocation="True" />
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="923.775307335867,183.500197864904,407.923333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="Microsoft.VisualStudio.Method.Public" Label="Process(object, object) : object (ProcessMethod&lt;TInA, TInB, TResult&gt;)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Process Method/Process Method - IProcessMethod.cs&quot; StartLineNumber=29 StartCharacterOffset=22 EndLineNumber=29 EndCharacterOffset=29)" UseManualLocation="True" />
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="167.221666666666,40,263.52,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="Microsoft.VisualStudio.Method.Public" Label="Process(object, object) : object (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Process.cs&quot; StartLineNumber=30 StartCharacterOffset=22 EndLineNumber=30 EndCharacterOffset=29)" UseManualLocation="True" />
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="930.38703503769,239.500167347326,394.7,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="Microsoft.VisualStudio.Method.Public" Label="Process(TInA, TInB) : TResult (ProcessMethod&lt;TInA, TInB, TResult&gt;)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Process Method/Process Method - IProcessMethod.cs&quot; StartLineNumber=38 StartCharacterOffset=23 EndLineNumber=38 EndCharacterOffset=30)" UseManualLocation="True" />
+    <Node Id="@22" Category="CodeSchema_Method" Bounds="94.8366666666661,154,408.290000000001,26" CodeSchemaProperty_IsPublic="True" CommonLabel="AddProcessMethod" Icon="Microsoft.VisualStudio.Method.Public" Label="AddProcessMethod(object, object, IProcessMethod) : void (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Add.cs&quot; StartLineNumber=29 StartCharacterOffset=20 EndLineNumber=29 EndCharacterOffset=36)" UseManualLocation="True" />
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="20,268,557.963333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="AddProcessMethod" Icon="Microsoft.VisualStudio.Method.Public" Label="AddProcessMethod&lt;TInA, TInB, TResult&gt;(IProcessMethod&lt;TResult, TInA, TInB&gt;) : void (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Add.cs&quot; StartLineNumber=39 StartCharacterOffset=20 EndLineNumber=39 EndCharacterOffset=36)" UseManualLocation="True" />
+    <Node Id="@24" Category="CodeSchema_Method" Bounds="50.0733333333337,211,497.816666666666,26" CodeSchemaProperty_IsPublic="True" CommonLabel="AddProcessMethod" Icon="Microsoft.VisualStudio.Method.Public" Label="AddProcessMethod&lt;TInA, TInB, TResult&gt;(Func&lt;TInA, TInB, TResult&gt;) : void (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Add.cs&quot; StartLineNumber=49 StartCharacterOffset=20 EndLineNumber=49 EndCharacterOffset=36)" UseManualLocation="True" />
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="117.033333333333,97,363.896666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="Microsoft.VisualStudio.Method.Public" Label="Process&lt;TInA, TInB, TResult&gt;(TInA, TInB) : TResult (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Process.cs&quot; StartLineNumber=46 StartCharacterOffset=23 EndLineNumber=46 EndCharacterOffset=30)" UseManualLocation="True" />
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="218.465,325,161.033333333333,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Processor" Icon="Microsoft.VisualStudio.Method.Public" Label="Processor() (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Initialize.cs&quot; StartLineNumber=28 StartCharacterOffset=15 EndLineNumber=28 EndCharacterOffset=24)" UseManualLocation="True" />
+    <Node Id="@27" Category="CodeSchema_Property" Bounds="1395.14870007675,239.500167347326,480.090000000001,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Func" Icon="Microsoft.VisualStudio.Property.Public" Label="Func : Func&lt;TInA, TInB, TResult&gt;(TInA, TInB) (ProcessMethod&lt;TInA, TInB, TResult&gt;)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Process Method/Process Method - Properties.cs&quot; StartLineNumber=26 StartCharacterOffset=41 EndLineNumber=26 EndCharacterOffset=45)" UseManualLocation="True" />
+    <Node Id="@28" Category="CodeSchema_Property" Bounds="607.963333333333,211,455.093333333334,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ProcessorMethods" Icon="Microsoft.VisualStudio.Property.Public" Label="ProcessorMethods : Dictionary&lt;(Type A, Type B), IProcessMethod&gt; (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Properties.cs&quot; StartLineNumber=26 StartCharacterOffset=98 EndLineNumber=26 EndCharacterOffset=114)" UseManualLocation="True" />
+    <Node Id="@29" Category="CodeSchema_Property" Bounds="707.248333333333,382,256.523333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Processors" Icon="Microsoft.VisualStudio.Property.Public" Label="Processors : List&lt;IProcessor&gt; (Processor)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Processor/Processor - Properties.cs&quot; StartLineNumber=29 StartCharacterOffset=32 EndLineNumber=29 EndCharacterOffset=42)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Interface" Bounds="0,116,311.596666666667,86" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IProcessMethod&lt;TResult, TInA, TInB&gt;" Group="Expanded" Icon="Microsoft.VisualStudio.Interface.Public" Label="IProcessMethod&lt;TResult, TInA, TInB&gt; (DaanV2)" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Interfaces/IProcess Method.cs&quot; StartLineNumber=36 StartCharacterOffset=21 EndLineNumber=36 EndCharacterOffset=35)" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="142.133333333333,232,256.536666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ProcessMethod&lt;TInA, TInB, TResult&gt;" Group="Collapsed" Icon="Microsoft.VisualStudio.Class.Public" Label="ProcessMethod&lt;TInA, TInB, TResult&gt;" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Classes/Process Method/Process Method - IProcessMethod.cs&quot; StartLineNumber=23 StartCharacterOffset=25 EndLineNumber=23 EndCharacterOffset=38)" />
+    <Node Id="@9" Category="CodeSchema_Interface" Bounds="0,0,241.860000000001,86" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IProcessMethod" Group="Expanded" Icon="Microsoft.VisualStudio.Interface.Public" Label="IProcessMethod" SourceLocation="(Assembly=&quot;file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Sources/DynamicTypeProcessor.Net Csharp/Interfaces/IProcess Method.cs&quot; StartLineNumber=24 StartCharacterOffset=21 EndLineNumber=24 EndCharacterOffset=35)" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="(@1 @2 Type=IProcessor Member=(Name=AddProcessMethods OverloadingParameters=[@12]))" Category="Contains" />
+    <Link Source="@12" Target="@15" Category="Contains" />
+    <Link Source="@12" Target="@16" Category="Contains" />
+    <Link Source="@12" Target="@20" Category="Contains" />
+    <Link Source="@12" Target="@22" Category="Contains" />
+    <Link Source="@12" Target="@23" Category="Contains" />
+    <Link Source="@12" Target="@24" Category="Contains" />
+    <Link Source="@12" Target="@25" Category="Contains" />
+    <Link Source="@12" Target="@26" Category="Contains" />
+    <Link Source="@12" Target="@28" Category="Contains" />
+    <Link Source="@12" Target="@29" Category="Contains" />
+    <Link Source="@14" Target="@27" Category="CodeSchema_Calls" Bounds="1245.53942871094,266.487365722656,262.906127929688,29.0127868652344" />
+    <Link Source="@15" Target="@29" Category="CodeSchema_Calls" Bounds="421.347778320313,408.950805664063,282.846496582031,30.0491943359375" />
+    <Link Source="@16" Target="@29" Category="CodeSchema_Calls" Bounds="433.559997558594,395,264.688354492188,0" />
+    <Link Source="@19" Target="@27" Category="CodeSchema_Calls" Bounds="1245.53942871094,209.50016784668,262.906127929688,29.0128021240234" />
+    <Link Source="@20" Target="@28" Category="CodeSchema_Calls" Bounds="381.912078857422,66,413.171905517578,141.62028503418" />
+    <Link Source="@21" Target="@27" Category="CodeSchema_Calls" Bounds="1325.08703613281,252.50016784668,61.0616455078125,0" />
+    <Link Source="@22" Target="@28" Category="CodeSchema_Calls" Bounds="421.347778320313,180,282.846496582031,30.0492095947266" />
+    <Link Source="@23" Target="@28" Category="CodeSchema_Calls" Bounds="421.347778320313,237.950790405273,282.846496582031,30.0492095947266" />
+    <Link Source="@24" Target="@14" Category="CodeSchema_Calls" Bounds="547.889778645833,313.284071510456,576.17028651221,15.8630253061963" />
+    <Link Source="@24" Target="@28" Category="CodeSchema_Calls" Bounds="547.890014648438,224,51.0733032226563,0" />
+    <Link Source="@25" Target="@28" Category="CodeSchema_Calls" Bounds="361.499359130859,123,404.824127197266,86.1059265136719" />
+    <Link Source="@26" Target="@28" Category="CodeSchema_Calls" Bounds="379.498321533203,239.908081054688,409.419952392578,90.3052673339844" />
+    <Link Source="@26" Target="@29" Category="CodeSchema_Calls" Bounds="379.498321533203,346.553985595703,324.695953369141,34.4952087402344" />
+    <Link Source="@5" Target="(@1 @2 @4 Member=(@17 OverloadingParameters=[(@1 @2 @4 ParameterIdentifier=1),(@1 @2 @4 ParameterIdentifier=2)]))" Category="Contains" />
+    <Link Source="@8" Target="@14" Category="Contains" />
+    <Link Source="@8" Target="@19" Category="Contains" />
+    <Link Source="@8" Target="@21" Category="Contains" />
+    <Link Source="@8" Target="@27" Category="Contains" />
+    <Link Source="@9" Target="(@1 @2 Type=IProcessMethod Member=(@17 OverloadingParameters=[@18,@18]))" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Array Rank" ValueType="System.String" />
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Generic Arguments" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParameterIdentifier" Label="Parameter Identifier" ValueType="System.String" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(b55f4eec-fe3b-43a6-950e-8ffe1eb3f082.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=DaanV2" />
+    <Alias n="3" Id="GenericParameterCount=3" />
+    <Alias n="4" Id="Type=(Name=IProcessMethod @3)" />
+    <Alias n="5" Id="(@1 @2 @4)" />
+    <Alias n="7" Id="Type=(Name=ProcessMethod @3)" />
+    <Alias n="8" Id="(@1 @2 @7)" />
+    <Alias n="9" Id="(@1 @2 Type=IProcessMethod)" />
+    <Alias n="10" Id="(@1 @2 Type=IProcessor)" />
+    <Alias n="11" Id="Type=Processor" />
+    <Alias n="12" Id="(@1 @2 @11)" />
+    <Alias n="13" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.7.2/mscorlib.dll" />
+    <Alias n="14" Id="(@1 @2 @7 Member=(Name=.ctor OverloadingParameters=[(@13 Namespace=System Type=(Name=Func @3 GenericArguments=[(@1 @2 @7 ParameterIdentifier=0),(@1 @2 @7 ParameterIdentifier=1),(@1 @2 @7 ParameterIdentifier=2)]))]))" />
+    <Alias n="15" Id="(@1 @2 @11 Member=(Name=.ctor OverloadingParameters=[(@1 @2 Type=(Name=IProcessor ArrayRank=1 ParentType=IProcessor))]))" />
+    <Alias n="16" Id="(@1 @2 @11 Member=(Name=AddProcessor OverloadingParameters=[@10]))" />
+    <Alias n="17" Id="Name=Process" />
+    <Alias n="18" Id="(@13 Namespace=System Type=Object)" />
+    <Alias n="19" Id="(@1 @2 @7 Member=(@17 OverloadingParameters=[@18,@18]))" />
+    <Alias n="20" Id="(@1 @2 @11 Member=(@17 OverloadingParameters=[@18,@18]))" />
+    <Alias n="21" Id="(@1 @2 @7 Member=(@17 OverloadingParameters=[(@1 @2 @7 ParameterIdentifier=0),(@1 @2 @7 ParameterIdentifier=1)]))" />
+    <Alias n="22" Id="(@1 @2 @11 Member=(Name=AddProcessMethod OverloadingParameters=[@18,@18,@9]))" />
+    <Alias n="23" Id="(@1 @2 @11 Member=(Name=AddProcessMethod @3 OverloadingParameters=[(@1 @2 Type=(Name=IProcessMethod @3 GenericArguments=[(ParameterIdentifier=2),(ParameterIdentifier=0),(ParameterIdentifier=1)]))]))" />
+    <Alias n="24" Id="(@1 @2 @11 Member=(Name=AddProcessMethod @3 OverloadingParameters=[(@13 Namespace=System Type=(Name=Func @3 GenericArguments=[(ParameterIdentifier=0),(ParameterIdentifier=1),(ParameterIdentifier=2)]))]))" />
+    <Alias n="25" Id="(@1 @2 @11 Member=(@17 @3 OverloadingParameters=[(ParameterIdentifier=0),(ParameterIdentifier=1)]))" />
+    <Alias n="26" Id="(@1 @2 @11 Member=.ctor)" />
+    <Alias n="27" Id="(@1 @2 @7 Member=Func)" />
+    <Alias n="28" Id="(@1 @2 @11 Member=ProcessorMethods)" />
+    <Alias n="29" Id="(@1 @2 @11 Member=Processors)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="b55f4eec-fe3b-43a6-950e-8ffe1eb3f082.OutputPathUri" Value="file:///D:/Mijn Projecten/Software/Git Hub/DynamicTypeProcessor.Net/Output/DynamicTypeProcessor.Net Csharp/bin/x86/Release/DynamicTypeProcessor.Net.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

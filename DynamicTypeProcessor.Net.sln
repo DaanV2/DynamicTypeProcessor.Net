@@ -3,21 +3,75 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeProcessor.Net", "DynamicTypeProcessor.Net\DynamicTypeProcessor.Net.csproj", "{169BA59C-5803-40C7-A211-C9F036B23366}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Output", "Output", "{04B91ACF-6BA9-4233-9351-AFDC95BC9EF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{619AFAD5-5D5B-43B4-BCC6-16E2F8FB5B43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{0C4F728E-B1B6-4B2A-914C-A265D3714761}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ThreadSafe-Dictionary.Net", "Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.shproj", "{22B8C826-015F-48F8-8492-073AB97C805A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeProcessor.Net Csharp", "Output\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.csproj", "{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeProcessor.Net-Core Csharp", "DynamicTypeProcessor.Net-Core Csharp\DynamicTypeProcessor.Net-Core Csharp.csproj", "{A56308DB-A3C1-4799-940F-B17CE2E25F73}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DynamicTypeProcessor.Net Csharp", "Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.shproj", "{B55F4EEC-FE3B-43A6-950E-8FFE1EB3F082}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{02E41F32-E850-4D48-AF70-029CB63879DA}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		Overview.dgml = Overview.dgml
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems*{1b1b6258-c84e-43e5-83a1-40f1d067e5b4}*SharedItemsImports = 4
+		Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems*{1b1b6258-c84e-43e5-83a1-40f1d067e5b4}*SharedItemsImports = 4
+		Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems*{22b8c826-015f-48f8-8492-073ab97c805a}*SharedItemsImports = 13
+		Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems*{b55f4eec-fe3b-43a6-950e-8ffe1eb3f082}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{169BA59C-5803-40C7-A211-C9F036B23366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{169BA59C-5803-40C7-A211-C9F036B23366}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{169BA59C-5803-40C7-A211-C9F036B23366}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{169BA59C-5803-40C7-A211-C9F036B23366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Debug|x64.ActiveCfg = Debug|x64
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Debug|x64.Build.0 = Debug|x64
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Debug|x86.ActiveCfg = Debug|x86
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Debug|x86.Build.0 = Debug|x86
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Release|x64.ActiveCfg = Release|x64
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Release|x64.Build.0 = Release|x64
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Release|x86.ActiveCfg = Release|x86
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}.Release|x86.Build.0 = Release|x86
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Debug|x64.ActiveCfg = Debug|x64
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Debug|x64.Build.0 = Debug|x64
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Debug|x86.ActiveCfg = Debug|x86
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Debug|x86.Build.0 = Debug|x86
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Release|x64.ActiveCfg = Release|x64
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Release|x64.Build.0 = Release|x64
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Release|x86.ActiveCfg = Release|x86
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22B8C826-015F-48F8-8492-073AB97C805A} = {0C4F728E-B1B6-4B2A-914C-A265D3714761}
+		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4} = {04B91ACF-6BA9-4233-9351-AFDC95BC9EF4}
+		{A56308DB-A3C1-4799-940F-B17CE2E25F73} = {04B91ACF-6BA9-4233-9351-AFDC95BC9EF4}
+		{B55F4EEC-FE3B-43A6-950E-8FFE1EB3F082} = {619AFAD5-5D5B-43B4-BCC6-16E2F8FB5B43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A12A3F0-7471-452B-A332-A687A7ED2FEF}
