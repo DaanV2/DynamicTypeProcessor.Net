@@ -13,7 +13,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ThreadSafe-Dictionary.Net",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeProcessor.Net Csharp", "Output\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.csproj", "{1B1B6258-C84E-43E5-83A1-40F1D067E5B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeProcessor.Net-Core Csharp", "DynamicTypeProcessor.Net-Core Csharp\DynamicTypeProcessor.Net-Core Csharp.csproj", "{A56308DB-A3C1-4799-940F-B17CE2E25F73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypeProcessor.Net-Core Csharp", "Output\DynamicTypeProcessor.Net-Core Csharp\DynamicTypeProcessor.Net-Core Csharp.csproj", "{A56308DB-A3C1-4799-940F-B17CE2E25F73}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DynamicTypeProcessor.Net Csharp", "Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.shproj", "{B55F4EEC-FE3B-43A6-950E-8FFE1EB3F082}"
 EndProject
