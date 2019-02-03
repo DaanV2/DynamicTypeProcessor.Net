@@ -23,7 +23,7 @@ namespace DaanV2
 {
     public partial class ProcessMethod<TInA, TInB, TResult> : IProcessMethod<TResult, TInA, TInB>
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <returns></returns>
@@ -32,7 +32,7 @@ namespace DaanV2
             return this.Func((TInA)A, (TInB)B);
         }
 
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <returns></returns>

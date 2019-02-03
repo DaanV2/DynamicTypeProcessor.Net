@@ -23,7 +23,7 @@ namespace DaanV2
 {
     public partial class ProcessMethod<TInA, TInB, TResult>
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         public Func<TInA, TInB, TResult> Func { get; set; }
     }
 }

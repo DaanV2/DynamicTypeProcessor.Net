@@ -19,22 +19,22 @@ using System.Text;
 
 namespace DaanV2
 {
-    ///TODO <summary>Add Description</summary>
+    ///DOLATER <summary>Add Description</summary>
     /// <typeparam name="TResult"></typeparam>
     public interface IProcessMethod
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <returns></returns>
         object Process(object A, object B);
     }
 
-    ///TODO <summary>Add Description</summary>
+    ///DOLATER <summary>Add Description</summary>
     /// <typeparam name="TResult"></typeparam>
     public interface IProcessMethod<out TResult, in TInA, in TInB> : IProcessMethod
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <returns></returns>

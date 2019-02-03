@@ -23,10 +23,10 @@ namespace DaanV2
 {
     public partial class Processor
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         public DaanV2.ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethod> ProcessorMethods { get; set; }
 
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         public List<IProcessor> Processors { get; set; }
     }
 }

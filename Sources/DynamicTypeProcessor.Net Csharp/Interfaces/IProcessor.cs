@@ -19,10 +19,10 @@ using System.Text;
 
 namespace DaanV2
 {
-    ///TODO <summary>Add Description</summary>
+    ///DOLATER <summary>Add Description</summary>
     public interface IProcessor
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name=""></param>
         void AddProcessMethods(Processor processor);
     }

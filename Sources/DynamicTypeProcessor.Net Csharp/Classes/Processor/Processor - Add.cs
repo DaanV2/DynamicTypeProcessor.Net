@@ -23,7 +23,7 @@ namespace DaanV2
 {
     public partial class Processor
     {
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <param name="Process"></param>
@@ -32,7 +32,7 @@ namespace DaanV2
             this.ProcessorMethods.Add((A.GetType(), B.GetType()), Process);
         }
 
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <typeparam name="TInA"></typeparam>
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
@@ -42,7 +42,7 @@ namespace DaanV2
             this.ProcessorMethods[(typeof(TInA), typeof(TInB))] = Process;
         }
 
-        ///TODO <summary>Add Description</summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <typeparam name="TInA"></typeparam>
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
