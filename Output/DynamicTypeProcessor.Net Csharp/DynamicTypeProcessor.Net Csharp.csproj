@@ -80,6 +80,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="..\..\Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems" Label="Shared" />
+  <Import Project="..\..\Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>rd /s /q "$(TargetDir)"
