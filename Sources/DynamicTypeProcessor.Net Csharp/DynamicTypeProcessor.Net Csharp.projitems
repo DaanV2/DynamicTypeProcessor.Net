@@ -9,15 +9,21 @@
     <Import_RootNamespace>DaanV2</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor Duo\Processor Duo - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor Duo\Processor Duo - Add.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor Duo\Processor Duo - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor Duo\Processor Duo - Process.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Add.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Properties.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Process.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IProcess Method Duo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IProcess Method.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IProcessor Duo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Process Method\Process Method - Initialize.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Process Method\Process Method - Properties.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Process Method\Process Method - IProcessMethod.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Processor\Processor - Process.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Classes\Process Method\" />
