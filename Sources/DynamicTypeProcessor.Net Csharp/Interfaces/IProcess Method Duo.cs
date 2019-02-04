@@ -21,22 +21,23 @@ namespace DaanV2
 {
     ///DOLATER <summary>Add Description</summary>
     /// <typeparam name="TResult"></typeparam>
-    public interface IProcessMethod
-    {
-        ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <returns></returns>
-        object Process(object A);
-    }
-
-    ///DOLATER <summary>Add Description</summary>
-    /// <typeparam name="TResult"></typeparam>
-    public interface IProcessMethod<out TResult, in TInA> : IProcessMethod
+    public interface IProcessMethodDuo
     {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <returns></returns>
-        TResult Process(TInA A);
+        object Process(object A, object B);
+    }
+
+    ///DOLATER <summary>Add Description</summary>
+    /// <typeparam name="TResult"></typeparam>
+    public interface IProcessMethod<out TResult, in TInA, in TInB> : IProcessMethodDuo
+    {
+        ///DOLATER <summary>Add Description</summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <returns></returns>
+        TResult Process(TInA A, TInB B);
     }
 }
