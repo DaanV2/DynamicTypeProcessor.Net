@@ -21,26 +21,15 @@ using System.Threading.Tasks;
 
 namespace DaanV2
 {
-    ///TODO <summary> add description for class: Processor</summary>
-	[Serializable]
-    public partial class Processor
+    public partial class ProcessorDuo
     {
-        /// <summary>Creates a new instance of <see cref="Processor"/></summary>
-        public Processor()
-        {
-            this.ProcessorMethods = new ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethod>();
-            this.Processors = new List<IProcessor>();
-        }
+        ///DOLATER <summary>Add Description</summary>
+        public DaanV2.ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethod> ProcessorMethods { get; set; }
 
-        /// <summary>Creates a new instance of <see cref="Processor"/></summary>
-        /// <param name="processors"></param>
-        public Processor(params IProcessor[] processors)
-        {
-            for (int I = 0; I < processors.Length; I++)
-            {
-                this.Processors.Add(Processors[I]);
-                processors[I].AddProcessMethods(this);
-            }
-        }
+        ///DOLATER <summary>Add Description</summary>
+        public List<IProcessor> Processors { get; set; }
+
+        ///DOLATER <summary></summary>
+        public IProcessMethod DefaultProcessMethod { get; set; }
     }
 }

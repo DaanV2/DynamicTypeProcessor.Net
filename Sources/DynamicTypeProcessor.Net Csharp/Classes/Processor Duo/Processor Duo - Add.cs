@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 
 namespace DaanV2
 {
-    public partial class Processor
+    public partial class ProcessorDuo
     {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>

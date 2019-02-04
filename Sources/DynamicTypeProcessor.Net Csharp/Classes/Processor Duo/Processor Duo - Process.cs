@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 
 namespace DaanV2
 {
-    public partial class Processor
+    public partial class ProcessorDuo
     {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
@@ -34,6 +34,9 @@ namespace DaanV2
 
             if (this.ProcessorMethods.ContainsKey(Key))
                 return this.ProcessorMethods[Key].Process(A, B);
+
+            else if (this.DefaultProcessMethod != null)
+                return this.DefaultProcessMethod.Process(A, B);
 
             else
                 throw new ArgumentException($"Processor for type: {Key.A.Name} and {Key.B.Name}");
@@ -50,6 +53,9 @@ namespace DaanV2
 
             if (this.ProcessorMethods.ContainsKey(Key))
                 return (TResult)this.ProcessorMethods[Key].Process(A, B);
+
+            else if (this.DefaultProcessMethod != null)
+                return this.DefaultProcessMethod.Process(A, B);
 
             else
                 throw new ArgumentException($"Processor for type: {Key.A.Name} and {Key.B.Name}");
