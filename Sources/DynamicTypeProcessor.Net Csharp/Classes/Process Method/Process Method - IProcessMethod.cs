@@ -40,5 +40,37 @@ namespace DaanV2
         {
             return this.Func(A, B);
         }
+
+        /// <summary>NotImplementedException</summary>
+        /// <param name="A"></param>
+        /// <returns></returns>
+        public object Process(object A) => throw new NotImplementedException();
+    }
+
+    public partial class ProcessMethod<TInA, TResult> : IProcessMethod<TResult, TInA>
+    {
+        ///DOLATER <summary>Add Description</summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <returns></returns>
+        public object Process(object A)
+        {
+            return this.Func((TInA)A);
+        }
+
+        ///DOLATER <summary>Add Description</summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <returns></returns>
+        public TResult Process(TInA A)
+        {
+            return this.Func(A);
+        }
+
+        /// <summary>NotImplementedException</summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <returns></returns>
+        public object Process(object A, object B) => throw new NotImplementedException();
     }
 }

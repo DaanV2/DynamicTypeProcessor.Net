@@ -26,4 +26,10 @@ namespace DaanV2
         ///DOLATER <summary>Add Description</summary>
         public Func<TInA, TInB, TResult> Func { get; set; }
     }
+
+    public partial class ProcessMethod<TInA, TResult>
+    {
+        ///DOLATER <summary>Add Description</summary>
+        public Func<TInA, TResult> Func { get; set; }
+    }
 }

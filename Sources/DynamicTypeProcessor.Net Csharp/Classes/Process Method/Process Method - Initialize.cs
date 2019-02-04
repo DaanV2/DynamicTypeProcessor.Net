@@ -35,4 +35,19 @@ namespace DaanV2
             this.Func = func;
         }
     }
+
+    ///TODO <summary> add description for class: ProcessMethod</summary>
+    /// <typeparam name="TInA"></typeparam>
+    /// <typeparam name="TInB"></typeparam>
+    /// <typeparam name="TResult"></typeparam>
+    [Serializable]
+    public partial class ProcessMethod<TInA, TResult>
+    {
+        /// <summary>Creates a new instance of <see cref="ProcessMethod"/></summary>
+        /// <param name="func"></param>
+        public ProcessMethod(Func<TInA, TResult> func)
+        {
+            this.Func = func;
+        }
+    }
 }

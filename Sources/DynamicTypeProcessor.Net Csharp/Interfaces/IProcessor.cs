@@ -24,6 +24,6 @@ namespace DaanV2
     {
         ///DOLATER <summary>Add Description</summary>
         /// <param name=""></param>
-        void AddProcessMethods(ProcessorDuo processor);
+        void AddProcessMethods(Processor processor);
     }
 }

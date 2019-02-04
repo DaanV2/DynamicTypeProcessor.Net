@@ -29,13 +29,13 @@ namespace DaanV2
         public ProcessorDuo()
         {
             this.ProcessorMethods = new ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethod>();
-            this.Processors = new List<IProcessor>();
+            this.Processors = new List<IProcessorDuo>();
             this.DefaultProcessMethod = null;
         }
 
         /// <summary>Creates a new instance of <see cref="ProcessorDuo"/></summary>
         /// <param name="processors"></param>
-        public ProcessorDuo(params IProcessor[] processors) : this()
+        public ProcessorDuo(params IProcessorDuo[] processors) : this()
         {
             for (int I = 0; I < processors.Length; I++)
             {

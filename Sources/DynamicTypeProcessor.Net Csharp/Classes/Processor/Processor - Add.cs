@@ -21,15 +21,15 @@ using System.Threading.Tasks;
 
 namespace DaanV2
 {
-    public partial class ProcessorDuo
+    public partial class Processor
     {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <param name="Process"></param>
-        public void AddProcessMethod(object A, object B, IProcessMethod Process)
+        public void AddProcessMethod(object A, IProcessMethod Process)
         {
-            this.ProcessorMethods[(A.GetType(), B.GetType()] = Process;
+            this.ProcessorMethods[A.GetType()] = Process;
         }
 
         ///DOLATER <summary>Add Description</summary>
@@ -37,9 +37,9 @@ namespace DaanV2
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
         /// <param name="Process"></param>
-        public void AddProcessMethod<TInA, TInB, TResult>(IProcessMethod<TResult, TInA, TInB> Process)
+        public void AddProcessMethod<TInA, TResult>(IProcessMethod<TResult, TInA> Process)
         {
-            this.ProcessorMethods[(typeof(TInA), typeof(TInB))] = Process;
+            this.ProcessorMethods[typeof(TInA)] = Process;
         }
 
         ///DOLATER <summary>Add Description</summary>
@@ -47,16 +47,16 @@ namespace DaanV2
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
         /// <param name="func"></param>
-        public void AddProcessMethod<TInA, TInB, TResult>(Func<TInA, TInB, TResult> func)
+        public void AddProcessMethod<TInA, TResult>(Func<TInA, TResult> func)
         {
-            this.ProcessorMethods[(typeof(TInA), typeof(TInB))] = new ProcessMethod<TInA, TInB, TResult>(func);
+            this.ProcessorMethods[typeof(TInA)] = new ProcessMethod<TInA, TResult>(func);
         }
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name=""></param>
-        public void AddProcessor(IProcessorDuo processor)
+        public void AddProcessor(IProcessor processor)
         {
             this.Processors.Add(processor);
             processor.AddProcessMethods(this);

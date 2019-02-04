@@ -55,7 +55,7 @@ namespace DaanV2
                 return (TResult)this.ProcessorMethods[Key].Process(A, B);
 
             else if (this.DefaultProcessMethod != null)
-                return this.DefaultProcessMethod.Process(A, B);
+                return (TResult)this.DefaultProcessMethod.Process(A, B);
 
             else
                 throw new ArgumentException($"Processor for type: {Key.A.Name} and {Key.B.Name}");

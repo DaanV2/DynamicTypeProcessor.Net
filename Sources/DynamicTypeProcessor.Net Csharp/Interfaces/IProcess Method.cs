@@ -28,6 +28,11 @@ namespace DaanV2
         /// <param name="B"></param>
         /// <returns></returns>
         object Process(object A, object B);
+
+        ///DOLATER <summary>Add Description</summary>
+        /// <param name="A"></param>
+        /// <returns></returns>
+        object Process(object A);
     }
 
     ///DOLATER <summary>Add Description</summary>
@@ -39,5 +44,16 @@ namespace DaanV2
         /// <param name="B"></param>
         /// <returns></returns>
         TResult Process(TInA A, TInB B);
+    }
+
+    ///DOLATER <summary>Add Description</summary>
+    /// <typeparam name="TResult"></typeparam>
+    public interface IProcessMethod<out TResult, in TInA> : IProcessMethod
+    {
+        ///DOLATER <summary>Add Description</summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <returns></returns>
+        TResult Process(TInA A);
     }
 }
