@@ -27,6 +27,10 @@
 
   <Import Project="..\Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems" Label="Shared" />
 
+  <Import Project="..\..\Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems" Label="Shared" />
+
+  <Import Project="..\..\Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems" Label="Shared" />
+
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="rd /s /q &quot;$(TargetDir)&quot;&#xD;&#xA;mkdir &quot;$(TargetDir)&quot;&#xD;&#xA;if $(ConfigurationName) == Release (&#xD;&#xA;rd /s /q &quot;$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\&quot;&#xD;&#xA;if exist &quot;$(SolutionDir)LICENSE.txt&quot; copy &quot;$(SolutionDir)LICENSE.txt&quot; &quot;$(TargetDir)LICENSE.txt&quot;&#xD;&#xA;if exist &quot;$(SolutionDir)README.md&quot; copy &quot;$(SolutionDir)README.md&quot; &quot;$(TargetDir)README.md&quot;&#xD;&#xA;if exist &quot;$(SolutionDir)Include\&quot; copy &quot;$(SolutionDir)Include\&quot; &quot;$(TargetDir)&quot;&#xD;&#xA;if exist &quot;$(ProjectDir)Include\&quot; copy &quot;$(ProjectDir)Include\&quot; &quot;$(TargetDir)&quot;&#xD;&#xA;)" />
   </Target>

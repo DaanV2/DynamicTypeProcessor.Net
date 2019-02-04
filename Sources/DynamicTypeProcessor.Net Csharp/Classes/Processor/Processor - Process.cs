@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 //DOLATER prune namespace: DaanV2
 namespace DaanV2
@@ -41,7 +37,7 @@ namespace DaanV2
                 return (TResult)this.ProcessorMethods[Key].Process(A);
 
             else if (this.DefaultProcessMethod != null)
-                return this.DefaultProcessMethod.Process(A);
+                return (TResult)this.DefaultProcessMethod.Process(A);
 
             else
                 throw new ArgumentException($"Processor for type: {Key.Name}");

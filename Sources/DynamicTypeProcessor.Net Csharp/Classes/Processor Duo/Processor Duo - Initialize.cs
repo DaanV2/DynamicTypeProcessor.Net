@@ -15,9 +15,6 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DaanV2
 {
@@ -28,7 +25,7 @@ namespace DaanV2
         /// <summary>Creates a new instance of <see cref="ProcessorDuo"/></summary>
         public ProcessorDuo()
         {
-            this.ProcessorMethods = new ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethod>();
+            this.ProcessorMethods = new ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethodDuo>();
             this.Processors = new List<IProcessorDuo>();
             this.DefaultProcessMethod = null;
         }

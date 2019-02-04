@@ -14,10 +14,6 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DaanV2
 {
@@ -27,9 +23,9 @@ namespace DaanV2
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <param name="Process"></param>
-        public void AddProcessMethod(object A, object B, IProcessMethod Process)
+        public void AddProcessMethod(object A, object B, IProcessMethodDuo Process)
         {
-            this.ProcessorMethods[(A.GetType(), B.GetType()] = Process;
+            this.ProcessorMethods[(A.GetType(), B.GetType())] = Process;
         }
 
         ///DOLATER <summary>Add Description</summary>

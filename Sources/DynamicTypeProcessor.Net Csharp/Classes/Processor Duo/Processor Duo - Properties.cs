@@ -15,21 +15,18 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DaanV2
 {
     public partial class ProcessorDuo
     {
         ///DOLATER <summary>Add Description</summary>
-        public DaanV2.ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethod> ProcessorMethods { get; set; }
+        public DaanV2.ThreadSafe.Collections.Generic.Dictionary<(Type A, Type B), IProcessMethodDuo> ProcessorMethods { get; set; }
 
         ///DOLATER <summary>Add Description</summary>
         public List<IProcessorDuo> Processors { get; set; }
 
         ///DOLATER <summary></summary>
-        public IProcessMethod DefaultProcessMethod { get; set; }
+        public IProcessMethodDuo DefaultProcessMethod { get; set; }
     }
 }
