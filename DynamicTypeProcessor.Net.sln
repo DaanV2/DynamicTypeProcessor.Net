@@ -15,19 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicTypeProcessor.Net-Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{02E41F32-E850-4D48-AF70-029CB63879DA}"
 	ProjectSection(SolutionItems) = preProject
+		CHANGELOG = CHANGELOG
 		LICENSE.txt = LICENSE.txt
 		Overview.dgml = Overview.dgml
+		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ThreadSafe-Dictionary.Net", "Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.shproj", "{22B8C826-015F-48F8-8492-073AB97C805A}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DynamicTypeProcessor.Net Csharp", "Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.shproj", "{B55F4EEC-FE3B-43A6-950E-8FFE1EB3F082}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ThreadSafe-Dictionary.Net", "ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.shproj", "{22B8C826-015F-48F8-8492-073AB97C805A}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems*{1b1b6258-c84e-43e5-83a1-40f1d067e5b4}*SharedItemsImports = 4
 		Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems*{1b1b6258-c84e-43e5-83a1-40f1d067e5b4}*SharedItemsImports = 4
-		Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems*{22b8c826-015f-48f8-8492-073ab97c805a}*SharedItemsImports = 13
+		ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems*{1b1b6258-c84e-43e5-83a1-40f1d067e5b4}*SharedItemsImports = 4
+		ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems*{22b8c826-015f-48f8-8492-073ab97c805a}*SharedItemsImports = 13
 		Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems*{b55f4eec-fe3b-43a6-950e-8ffe1eb3f082}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,8 +72,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1B1B6258-C84E-43E5-83A1-40F1D067E5B4} = {04B91ACF-6BA9-4233-9351-AFDC95BC9EF4}
 		{A56308DB-A3C1-4799-940F-B17CE2E25F73} = {04B91ACF-6BA9-4233-9351-AFDC95BC9EF4}
-		{22B8C826-015F-48F8-8492-073AB97C805A} = {0C4F728E-B1B6-4B2A-914C-A265D3714761}
 		{B55F4EEC-FE3B-43A6-950E-8FFE1EB3F082} = {619AFAD5-5D5B-43B4-BCC6-16E2F8FB5B43}
+		{22B8C826-015F-48F8-8492-073AB97C805A} = {0C4F728E-B1B6-4B2A-914C-A265D3714761}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A12A3F0-7471-452B-A332-A687A7ED2FEF}

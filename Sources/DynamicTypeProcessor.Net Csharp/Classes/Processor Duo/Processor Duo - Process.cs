@@ -56,5 +56,24 @@ namespace DaanV2
             else
                 throw new ArgumentException($"Processor for type: {Key.A.Name} and {Key.B.Name}");
         }
+
+        ///DOLATER <summary>Add Description</summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <exception cref="ArgumentException" />
+        /// <returns></returns>
+        public TResult Process<TInA, TInB, TResult>(object A, object B)
+        {
+            (Type A, Type B) Key = (A.GetType(), B.GetType());
+
+            if (this.ProcessorMethods.ContainsKey(Key))
+                return (TResult)this.ProcessorMethods[Key].Process(A, B);
+
+            else if (this.DefaultProcessMethod != null)
+                return (TResult)this.DefaultProcessMethod.Process(A, B);
+
+            else
+                throw new ArgumentException($"Processor for type: {Key.A.Name} and {Key.B.Name}");
+        }
     }
 }

@@ -18,7 +18,7 @@ using System.Collections.Generic;
 
 namespace DaanV2
 {
-    ///TODO <summary> add description for class: Processor</summary>
+    ///<summary>The class responible for discerning two types that needs to be processed together</summary>
 	[Serializable]
     public partial class ProcessorDuo
     {
@@ -31,12 +31,13 @@ namespace DaanV2
         }
 
         /// <summary>Creates a new instance of <see cref="ProcessorDuo"/></summary>
-        /// <param name="processors"></param>
+        /// <param name="processors">The classes that hold the different types of <see cref="IProcessMethodDuo"/>s</param>
+        /// <exception cref="OverflowException" />
         public ProcessorDuo(params IProcessorDuo[] processors) : this()
         {
             for (int I = 0; I < processors.Length; I++)
             {
-                this.Processors.Add(Processors[I]);
+                this.Processors.Add(this.Processors[I]);
                 processors[I].AddProcessMethods(this);
             }
         }

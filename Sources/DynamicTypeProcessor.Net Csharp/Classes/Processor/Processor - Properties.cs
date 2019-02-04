@@ -16,18 +16,17 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 using System.Collections.Generic;
 
-//DOLATER prune namespace: DaanV2
 namespace DaanV2
 {
     public partial class Processor
     {
-        ///DOLATER <summary>Add Description</summary>
+        ///<summary>The collection of <see cref="IProcessMethodDuo"/> coupled with their input types</summary>
         public DaanV2.ThreadSafe.Collections.Generic.Dictionary<Type, IProcessMethod> ProcessorMethods { get; set; }
 
-        ///DOLATER <summary>Add Description</summary>
+        ///<summary>Gets or sets the <see cref="List(IProcessorDuo)"/> that holds the orginal <see cref="IProcessMethodDuo"/></summary>
         public List<IProcessor> Processors { get; set; }
 
-        ///DOLATER <summary></summary>
+        ///<summary>Gets or sets the default <see cref="IProcessMethodDuo"/> that is to be used when no discerning type has been found</summary>
         public IProcessMethod DefaultProcessMethod { get; set; }
     }
 }

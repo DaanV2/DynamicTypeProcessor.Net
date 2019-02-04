@@ -17,10 +17,10 @@ using System;
 
 namespace DaanV2
 {
-    ///TODO <summary> add description for class: ProcessMethod</summary>
-    /// <typeparam name="TInA"></typeparam>
-    /// <typeparam name="TInB"></typeparam>
-    /// <typeparam name="TResult"></typeparam>
+    /// <summary>The class used for holding the function and inputs types for processing the specific combination of types</summary>
+    /// <typeparam name="TInA">The input <see cref="Type"/> for variable A</typeparam>
+    /// <typeparam name="TInB">The input <see cref="Type"/> for variable B</typeparam>
+    /// <typeparam name="TResult">The output <see cref="Type"/> for the combination of A and B</typeparam>
 	[Serializable]
     public partial class ProcessMethod<TInA, TInB, TResult>
     {
@@ -32,7 +32,7 @@ namespace DaanV2
         }
     }
 
-    ///TODO <summary> add description for class: ProcessMethod</summary>
+    /// <summary>The class used for holding the function and inputs types for processing the specific combination of types</summary>
     /// <typeparam name="TInA"></typeparam>
     /// <typeparam name="TInB"></typeparam>
     /// <typeparam name="TResult"></typeparam>

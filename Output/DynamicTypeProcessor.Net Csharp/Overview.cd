@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DaanV2.ProcessMethod&lt;TInA, TInB, TResult&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Classes\Process Method\Process Method - Initialize.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Func" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DaanV2.ProcessMethod&lt;TInA, TResult&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Classes\Process Method\Process Method - Initialize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DaanV2.Processor" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAgAAAAAAAAIAAACEAAAIAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Classes\Processor\Processor - Add.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DefaultProcessMethod" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProcessorMethods" />
+      <Property Name="Processors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DaanV2.ProcessorDuo" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAgAAAAAAAAIAAACEAAAIAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Classes\Processor Duo\Processor Duo - Add.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DefaultProcessMethod" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Processors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DaanV2.ThreadSafe.Collections.Generic.Dictionary&lt;KeyType, ValueType&gt;" Collapsed="true">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAAAAAACAABBAAAAAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\Classes\Thread Safe Dictionary\Thread Safe Dictionary - Add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DaanV2.IProcessMethod" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Interfaces\IProcess Method.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DaanV2.IProcessMethod&lt;TResult, TInA, TInB&gt;" Collapsed="true">
+    <Position X="5" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Interfaces\IProcess Method Duo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DaanV2.IProcessMethod&lt;TResult, TInA&gt;" Collapsed="true">
+    <Position X="5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Interfaces\IProcess Method.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DaanV2.IProcessMethodDuo" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Interfaces\IProcess Method Duo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DaanV2.IProcessor" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Interfaces\IProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DaanV2.IProcessorDuo" Collapsed="true">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Mijn Projecten\Software\Git Hub\DynamicTypeProcessor.Net\Sources\DynamicTypeProcessor.Net Csharp\Interfaces\IProcessor Duo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="System.Func&lt;T1, T2, TResult&gt;" Collapsed="true">
+    <Position X="10" Y="5.75" Width="2" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

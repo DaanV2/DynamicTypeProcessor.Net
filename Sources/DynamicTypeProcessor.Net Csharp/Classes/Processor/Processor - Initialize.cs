@@ -16,10 +16,9 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 using System.Collections.Generic;
 
-//DOLATER prune namespace: DaanV2
 namespace DaanV2
 {
-    ///DOLATER <summary> add description for class: Processor</summary>
+    ///<summary>The class responible for discerning a type that needs to be processed together</summary>
 	[Serializable]
     public partial class Processor
     {
@@ -37,7 +36,7 @@ namespace DaanV2
         {
             for (int I = 0; I < processors.Length; I++)
             {
-                this.Processors.Add(Processors[I]);
+                this.Processors.Add(this.Processors[I]);
                 processors[I].AddProcessMethods(this);
             }
         }

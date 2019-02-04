@@ -79,12 +79,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Overview.cd" />
+  </ItemGroup>
   <Import Project="..\..\Sources\DynamicTypeProcessor.Net Csharp\DynamicTypeProcessor.Net Csharp.projitems" Label="Shared" />
-  <Import Project="..\..\Modules\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems" Label="Shared" />
+  <Import Project="..\..\ThreadSafe-Collections.Net\Source\Csharp\ThreadSafe-Dictionary.Net\ThreadSafe-Dictionary.Net.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>rd /s /q "$(TargetDir)"
-mkdir "$(TargetDir)"
+if not exist "$(TargetDir)" mkdir "$(TargetDir)"
 if $(ConfigurationName) == Release (
 rd /s /q "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"
 if exist "$(SolutionDir)LICENSE.txt" copy "$(SolutionDir)LICENSE.txt" "$(TargetDir)LICENSE.txt"
@@ -97,7 +100,7 @@ if exist "$(ProjectDir)Include\" copy "$(ProjectDir)Include\" "$(TargetDir)"
     <PostBuildEvent>if $(ConfigurationName) == Release (
 if not exist "$(SolutionDir)Releases\" mkdir "$(SolutionDir)Releases\"
 if not exist "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\" mkdir "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"
-copy "$(TargetDir)" "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"
+copy "$(TargetDir)*" "$(SolutionDir)Releases\$(ProjectName)-$(PlatformName)\"
 )</PostBuildEvent>
   </PropertyGroup>
 </Project>
