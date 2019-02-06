@@ -48,9 +48,7 @@ namespace DaanV2
             this.ProcessorMethods[(typeof(TInA), typeof(TInB))] = new ProcessMethod<TInA, TInB, TResult>(func);
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
+        ///DOLATER <summary>Add Description</summary>
         /// <param name=""></param>
         public void AddProcessor(IProcessorDuo processor)
         {
