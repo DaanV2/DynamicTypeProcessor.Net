@@ -20,8 +20,8 @@ namespace DaanV2
     public partial class ProcessMethod<TInA, TInB, TResult> : IProcessMethod<TResult, TInA, TInB>
     {
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
         public object Process(object A, object B)
         {
@@ -29,8 +29,8 @@ namespace DaanV2
         }
 
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
         public TResult Process(TInA A, TInB B)
         {
@@ -38,7 +38,7 @@ namespace DaanV2
         }
 
         /// <summary>NotImplementedException</summary>
-        /// <param name="A"></param>
+        /// <param name="A">DOLATER FILL IN</param>
         /// <returns></returns>
         public object Process(object A) => throw new NotImplementedException();
     }
@@ -46,8 +46,8 @@ namespace DaanV2
     public partial class ProcessMethod<TInA, TResult> : IProcessMethod<TResult, TInA>
     {
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
         public object Process(object A)
         {
@@ -55,8 +55,8 @@ namespace DaanV2
         }
 
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
         public TResult Process(TInA A)
         {
@@ -64,8 +64,8 @@ namespace DaanV2
         }
 
         /// <summary>NotImplementedException</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
         public object Process(object A, object B) => throw new NotImplementedException();
     }

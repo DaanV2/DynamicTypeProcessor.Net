@@ -20,9 +20,9 @@ namespace DaanV2
     public partial class Processor
     {
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
-        /// <param name="Process"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
+        /// <param name="Process">DOLATER FILL IN</param>
         public void AddProcessMethod(object A, IProcessMethod Process)
         {
             this.ProcessorMethods[A.GetType()] = Process;
@@ -32,7 +32,7 @@ namespace DaanV2
         /// <typeparam name="TInA"></typeparam>
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
-        /// <param name="Process"></param>
+        /// <param name="Process">DOLATER FILL IN</param>
         public void AddProcessMethod<TInA, TResult>(IProcessMethod<TResult, TInA> Process)
         {
             this.ProcessorMethods[typeof(TInA)] = Process;
@@ -42,14 +42,14 @@ namespace DaanV2
         /// <typeparam name="TInA"></typeparam>
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
-        /// <param name="func"></param>
+        /// <param name="func">DOLATER FILL IN</param>
         public void AddProcessMethod<TInA, TResult>(Func<TInA, TResult> func)
         {
             this.ProcessorMethods[typeof(TInA)] = new ProcessMethod<TInA, TResult>(func);
         }
 
         ///DOLATER <summary>Add Description</summary>
-        /// <param name=""></param>
+        /// <param name="">DOLATER FILL IN</param>
         public void AddProcessor(IProcessor processor)
         {
             this.Processors.Add(processor);

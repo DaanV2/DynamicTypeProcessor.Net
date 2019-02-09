@@ -5,8 +5,8 @@ namespace DaanV2
     public partial class Processor
     {
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <exception cref="ArgumentException" />
         /// <returns></returns>
         public object Process(object A)
@@ -24,8 +24,8 @@ namespace DaanV2
         }
 
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <exception cref="ArgumentException" />
         /// <returns></returns>
         public TResult Process<TInA, TResult>(TInA A)
@@ -43,8 +43,8 @@ namespace DaanV2
         }
 
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <exception cref="ArgumentException" />
         /// <returns></returns>
         public TResult Process<TResult>(object A)

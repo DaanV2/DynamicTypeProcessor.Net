@@ -31,7 +31,7 @@ namespace DaanV2
         }
 
         /// <summary>Creates a new instance of <see cref="ProcessorDuo"/></summary>
-        /// <param name="processors"></param>
+        /// <param name="processors">DOLATER FILL IN</param>
         public Processor(params IProcessor[] processors) : this()
         {
             for (int I = 0; I < processors.Length; I++)

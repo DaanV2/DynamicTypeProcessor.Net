@@ -21,7 +21,7 @@ namespace DaanV2
     public interface IProcessMethod
     {
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
+        /// <param name="A">DOLATER FILL IN</param>
         /// <returns></returns>
         object Process(object A);
     }
@@ -31,8 +31,8 @@ namespace DaanV2
     public interface IProcessMethod<out TResult, in TInA> : IProcessMethod
     {
         ///DOLATER <summary>Add Description</summary>
-        /// <param name="A"></param>
-        /// <param name="B"></param>
+        /// <param name="A">DOLATER FILL IN</param>
+        /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
         TResult Process(TInA A);
     }

@@ -25,7 +25,7 @@ namespace DaanV2
     public partial class ProcessMethod<TInA, TInB, TResult>
     {
         /// <summary>Creates a new instance of <see cref="ProcessMethod"/></summary>
-        /// <param name="func"></param>
+        /// <param name="func">DOLATER FILL IN</param>
         public ProcessMethod(Func<TInA, TInB, TResult> func)
         {
             this.Func = func;
@@ -40,7 +40,7 @@ namespace DaanV2
     public partial class ProcessMethod<TInA, TResult>
     {
         /// <summary>Creates a new instance of <see cref="ProcessMethod"/></summary>
-        /// <param name="func"></param>
+        /// <param name="func">DOLATER FILL IN</param>
         public ProcessMethod(Func<TInA, TResult> func)
         {
             this.Func = func;
