@@ -18,7 +18,7 @@ using System.Collections.Generic;
 
 namespace DaanV2
 {
-    ///<summary>The class responible for discerning a type that needs to be processed together</summary>
+    /// <summary>The class responible for discerning a type that needs to be processed together</summary>
 	[Serializable]
     public partial class Processor
     {
