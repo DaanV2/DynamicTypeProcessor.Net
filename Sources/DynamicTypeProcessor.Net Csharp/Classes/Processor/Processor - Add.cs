@@ -15,16 +15,13 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 
-namespace DaanV2
-{
-    public partial class Processor
-    {
+namespace DaanV2 {
+    public partial class Processor {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <param name="Process">DOLATER FILL IN</param>
-        public void AddProcessMethod(object A, IProcessMethod Process)
-        {
+        public void AddProcessMethod(Object A, IProcessMethod Process) {
             this.ProcessorMethods[A.GetType()] = Process;
         }
 
@@ -33,8 +30,7 @@ namespace DaanV2
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
         /// <param name="Process">DOLATER FILL IN</param>
-        public void AddProcessMethod<TInA, TResult>(IProcessMethod<TResult, TInA> Process)
-        {
+        public void AddProcessMethod<TInA, TResult>(IProcessMethod<TResult, TInA> Process) {
             this.ProcessorMethods[typeof(TInA)] = Process;
         }
 
@@ -43,15 +39,13 @@ namespace DaanV2
         /// <typeparam name="TInB"></typeparam>
         /// <typeparam name="TResult"></typeparam>
         /// <param name="func">DOLATER FILL IN</param>
-        public void AddProcessMethod<TInA, TResult>(Func<TInA, TResult> func)
-        {
+        public void AddProcessMethod<TInA, TResult>(Func<TInA, TResult> func) {
             this.ProcessorMethods[typeof(TInA)] = new ProcessMethod<TInA, TResult>(func);
         }
 
         ///DOLATER <summary>Add Description</summary>
         /// <param name="">DOLATER FILL IN</param>
-        public void AddProcessor(IProcessor processor)
-        {
+        public void AddProcessor(IProcessor processor) {
             this.Processors.Add(processor);
             processor.AddProcessMethods(this);
         }

@@ -15,17 +15,14 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 
-namespace DaanV2
-{
-    public partial class ProcessorDuo
-    {
+namespace DaanV2 {
+    public partial class ProcessorDuo {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <exception cref="ArgumentException" />
         /// <returns></returns>
-        public object Process(object A, object B)
-        {
+        public Object Process(Object A, Object B) {
             (Type A, Type B) Key = (A.GetType(), B.GetType());
 
             if (this.ProcessorMethods.ContainsKey(Key))
@@ -43,8 +40,7 @@ namespace DaanV2
         /// <param name="B">DOLATER FILL IN</param>
         /// <exception cref="ArgumentException" />
         /// <returns></returns>
-        public TResult Process<TInA, TInB, TResult>(TInA A, TInB B)
-        {
+        public TResult Process<TInA, TInB, TResult>(TInA A, TInB B) {
             (Type A, Type B) Key = (typeof(TInA), typeof(TInB));
 
             if (this.ProcessorMethods.ContainsKey(Key))
@@ -62,8 +58,7 @@ namespace DaanV2
         /// <param name="B">DOLATER FILL IN</param>
         /// <exception cref="ArgumentException" />
         /// <returns></returns>
-        public TResult Process<TInA, TInB, TResult>(object A, object B)
-        {
+        public TResult Process<TInA, TInB, TResult>(Object A, Object B) {
             (Type A, Type B) Key = (A.GetType(), B.GetType());
 
             if (this.ProcessorMethods.ContainsKey(Key))

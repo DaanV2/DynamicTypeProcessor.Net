@@ -14,11 +14,9 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 
-namespace DaanV2
-{
+namespace DaanV2 {
     ///DOLATER <summary>Add Description</summary>
-    public interface IProcessor
-    {
+    public interface IProcessor {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="">DOLATER FILL IN</param>
         void AddProcessMethods(Processor processor);

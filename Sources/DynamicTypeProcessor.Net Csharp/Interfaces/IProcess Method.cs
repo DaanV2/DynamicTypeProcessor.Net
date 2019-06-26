@@ -14,22 +14,19 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 
-namespace DaanV2
-{
+namespace DaanV2 {
     ///DOLATER <summary>Add Description</summary>
     /// <typeparam name="TResult"></typeparam>
-    public interface IProcessMethod
-    {
+    public interface IProcessMethod {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <returns></returns>
-        object Process(object A);
+        System.Object Process(System.Object A);
     }
 
     ///DOLATER <summary>Add Description</summary>
     /// <typeparam name="TResult"></typeparam>
-    public interface IProcessMethod<out TResult, in TInA> : IProcessMethod
-    {
+    public interface IProcessMethod<out TResult, in TInA> : IProcessMethod {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>

@@ -16,10 +16,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 using System.Collections.Generic;
 
-namespace DaanV2
-{
-    public partial class Processor
-    {
+namespace DaanV2 {
+    public partial class Processor {
         /// <summary>The collection of <see cref="IProcessMethodDuo"/> coupled with their input types</summary>
         public DaanV2.ThreadSafe.Collections.Generic.Dictionary<Type, IProcessMethod> ProcessorMethods { get; set; }
 

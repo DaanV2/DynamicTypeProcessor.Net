@@ -15,16 +15,13 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 
-namespace DaanV2
-{
-    public partial class ProcessMethod<TInA, TInB, TResult>
-    {
+namespace DaanV2 {
+    public partial class ProcessMethod<TInA, TInB, TResult> {
         ///DOLATER <summary>Add Description</summary>
         public Func<TInA, TInB, TResult> Func { get; set; }
     }
 
-    public partial class ProcessMethod<TInA, TResult>
-    {
+    public partial class ProcessMethod<TInA, TResult> {
         ///DOLATER <summary>Add Description</summary>
         public Func<TInA, TResult> Func { get; set; }
     }

@@ -15,16 +15,13 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.*/
 using System;
 
-namespace DaanV2
-{
-    public partial class ProcessMethod<TInA, TInB, TResult> : IProcessMethod<TResult, TInA, TInB>
-    {
+namespace DaanV2 {
+    public partial class ProcessMethod<TInA, TInB, TResult> : IProcessMethod<TResult, TInA, TInB> {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
-        public object Process(object A, object B)
-        {
+        public Object Process(Object A, Object B) {
             return this.Func((TInA)A, (TInB)B);
         }
 
@@ -32,25 +29,24 @@ namespace DaanV2
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
-        public TResult Process(TInA A, TInB B)
-        {
+        public TResult Process(TInA A, TInB B) {
             return this.Func(A, B);
         }
 
         /// <summary>NotImplementedException</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <returns></returns>
-        public object Process(object A) => throw new NotImplementedException();
+        public Object Process(Object A) {
+            throw new NotImplementedException();
+        }
     }
 
-    public partial class ProcessMethod<TInA, TResult> : IProcessMethod<TResult, TInA>
-    {
+    public partial class ProcessMethod<TInA, TResult> : IProcessMethod<TResult, TInA> {
         ///DOLATER <summary>Add Description</summary>
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
-        public object Process(object A)
-        {
+        public Object Process(Object A) {
             return this.Func((TInA)A);
         }
 
@@ -58,8 +54,7 @@ namespace DaanV2
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
-        public TResult Process(TInA A)
-        {
+        public TResult Process(TInA A) {
             return this.Func(A);
         }
 
@@ -67,6 +62,8 @@ namespace DaanV2
         /// <param name="A">DOLATER FILL IN</param>
         /// <param name="B">DOLATER FILL IN</param>
         /// <returns></returns>
-        public object Process(object A, object B) => throw new NotImplementedException();
+        public Object Process(Object A, Object B) {
+            throw new NotImplementedException();
+        }
     }
 }
